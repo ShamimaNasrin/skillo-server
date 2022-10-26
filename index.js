@@ -22,6 +22,15 @@ app.get('/courses-info', (req, res) => {
     res.send(coursesInfo);
 })
 
+//creating course api according to courseid(for a single course)
+app.get('/courses-info/:id', (req, res) => {
+    // console.log(req.params);
+    const id = req.params.id;
+    const selectedCourse = coursesInfo.find(c => c._id === id);
+    res.send(selectedCourse);
+    console.log(selectedCourse);
+})
+
 app.listen(port, () => {
     console.log('Courses Server running on port', port);
 })
