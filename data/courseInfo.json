@@ -1,34 +1,188 @@
 [
     {
-        "_id": "candcpp01",
+        "_id": "cpp01",
         "course_id": "01",
-        "total_student": 488,
-        "title": "",
-        "rating": { "number": 4.5, "votes": 686 },
-        "instructor": {
-          "name": "",
-          "designation": "",
-          "institution": "",
-          "students": 488,
-          "instructor_rating": 4.0,
-          "courses": 10,
-          "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+        "total_student": 1088,
+        "title": "Programming in C++",
+        "rating": {
+            "number": 4.5,
+            "votes": 686
         },
-        "thumbnail_url": "",
-        "image_url": "",
-        "quiz": "",
-        "course_duration": "",
-        "intro_text": "",
-        "description": "",
+        "instructor": {
+            "name": "Kishore Pasha",
+            "designation": "Senior Lecturer",
+            "institution": "University of Dhaka",
+            "students": 488,
+            "instructor_rating": 4.0,
+            "courses": 10,
+            "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+        },
+        "image_url": "https://res.cloudinary.com/practicaldev/image/fetch/s---PXwgPL0--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/h2917prj7ldo0ow5x5ih.png",
+        "quiz": "15",
+        "course_duration": "8 weeks",
+        "intro_text": "Learn the fundamentals of programming in the C++ programming language",
+        "description": "C and C++ Programming are must to learn for every one who are interested in programming and want to start their career in software industry. In this course you will learn all the basic fundamentals of c and c++ from scratch then proceed to advanced topics. In this course each and every topic is explained with example programs to understand the concepts better, there are many practical examples in this course, You will Learn the course by practicing the code as you go along with the course.",
         "features": {
             "language": "English",
             "level": "Intermediate",
             "support": "Instructor support",
-            "access": "lifetime",
+            "access": "Lifetime access access",
             "certificate": "Certificate of completion"
         }
-
+    },
+    {
+        "_id": "java02",
+        "course_id": "02",
+        "total_student": 2088,
+        "title": "Java: Object-Oriented Programming",
+        "rating": {
+            "number": 4.9,
+            "votes": 996
+        },
+        "instructor": {
+            "name": "Musa Aman",
+            "designation": "Program Director",
+            "institution": "East-West University",
+            "students": 968,
+            "instructor_rating": 4.5,
+            "courses": 13,
+            "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+        },
+        "image_url": "https://www.developer.com/wp-content/uploads/2021/09/Java-tutorials.jpg",
+        "quiz": "20",
+        "course_duration": "9 weeks",
+        "intro_text": "Learn the basics of object-oriented programming by exploring classes and methods with java.",
+        "description": "Object-oriented programming is a common style of programming where you design your code to function like objects in the real world. In Java, understanding the basics of object-oriented programming is especially important because every piece of Java code that you write interacts with objects and classes. In this course, you'll learn the foundations of object-oriented programming, write your own classes, create your own objects, and finally dive into some of the most common built-in Java classes.",
+        "features": {
+            "language": "English",
+            "level": "Intermediate",
+            "support": "Instructor support",
+            "access": "Lifetime access",
+            "certificate": "Certificate of completion"
+        }
+    },
+    {
+        "_id": "python03",
+        "course_id": "03",
+        "total_student": 3064,
+        "title": "Crash Course on Python",
+        "rating": {
+            "number": 4.6,
+            "votes": 1086
+        },
+        "instructor": {
+            "name": "Robin Milford",
+            "designation": "Professor",
+            "institution": "University of Arkansas",
+            "students": 2498,
+            "instructor_rating": 4.7,
+            "courses": 8,
+            "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+        },
+        "image_url": "https://sistemasgeniales.com/wp-content/uploads/2021/12/PYTHON.png",
+        "quiz": "25",
+        "course_duration": "12 weeks",
+        "intro_text": "Learn Python like a Professional Start from basics to advance",
+        "description": "Python is a general-purpose, versatile, and powerful programming language. This course is designed to teach you the fundamentals and some advanced topics of python. Learn how to use Python for real-world tasks, such as working with PDF Files, sending emails, working with image files, and much more! This course will teach you Python in a practical manner, with every lecture comes a full coding screencast and a corresponding code notebook! Learn in whatever manner is best for you!",
+        "features": {
+            "language": "English",
+            "level": "Advance",
+            "support": "Instructor support",
+            "access": "Lifetime access",
+            "certificate": "Certificate of completion"
+        }
+    },
+    {
+        "_id": "javascript04",
+        "course_id": "04",
+        "total_student": 1042,
+        "title": "JavaScript Introduction",
+        "rating": {
+            "number": 4.5,
+            "votes": 743
+        },
+        "instructor": {
+            "name": "Topesh Mitra",
+            "designation": "Lecturer",
+            "institution": "Scottish Church College",
+            "students": 964,
+            "instructor_rating": 4.3,
+            "courses": 5,
+            "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+        },
+        "image_url": "https://ayruslore.github.io/images/js.jpg",
+        "quiz": "15",
+        "course_duration": "9 weeks",
+        "intro_text": "Learn JavaScript to add interactivity to your Web pages.",
+        "description": "The JavaScript programming language is fun and flexible. It's one of the core technologies of web development and can be used on both the front-end and the back-end. This introductory course has been designed to help Web developers have an understanding of the basic concepts of the language. We present JavaScript best practices by means of many interactive examples, some of which being demonstrated in live coding videos.",
+        "features": {
+            "language": "English",
+            "level": "Basic",
+            "support": "Instructor support",
+            "access": "Lifetime access",
+            "certificate": "Certificate of completion"
+        }
+    },
+    {
+        "_id": "kotlin05",
+        "course_id": "05",
+        "total_student": 964,
+        "title": "Kotlin for Beginners",
+        "rating": {
+            "number": 4.4,
+            "votes": 953
+        },
+        "instructor": {
+            "name": "Lalmohan Ganguly",
+            "designation": "Assistent Professor",
+            "institution": "Scottish Church College",
+            "students": 1088,
+            "instructor_rating": 4.2,
+            "courses": 7,
+            "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+        },
+        "image_url": "https://p1.sa123.cc/wwlsj_zxq/Esm0C1b5y6Ycq9NDCtEDslCenzv8slyGXHrZskAA6aLNljrCr0KUobLk5hYvQnfn20F16Q62TpTjskobvo8BZYtTdbK.jpg",
+        "quiz": "12",
+        "course_duration": "7 weeks",
+        "intro_text": "Learn Kotlin fundamentals, object-orientation to realize coding projects and Android apps!",
+        "description": "Kotlin is a modern, general-purpose programming language developed by JetBrains. In this course you will work with data types, functions, conditionals, operators, collections-arrays, variables and loops. Furthermore, you'll create control flow patterns using conditionals and loops. There will be opportunities to practice using structs and classes while considering best cases for both. Discover deeper ways to use objects in Kotlin through exploring interfaces and classes.",
+        "features": {
+            "language": "English",
+            "level": "Basic",
+            "support": "Instructor support",
+            "access": "Lifetime access",
+            "certificate": "Certificate of completion"
+        }
+    },
+    {
+        "_id": "php06",
+        "course_id": "06",
+        "total_student": 2498,
+        "title": "Object Oriented PHP & MVC",
+        "rating": {
+            "number": 4.5,
+            "votes": 986
+        },
+        "instructor": {
+            "name": "Ajit Kumar",
+            "designation": "Assistent Professor",
+            "institution": "University of Calcutta",
+            "students": 2488,
+            "instructor_rating": 4.0,
+            "courses": 10,
+            "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+        },
+        "image_url": "https://trotons.com/wp-content/uploads/2019/10/Advantage-and-Disadvantage-of-PHP.jpg",
+        "quiz": "15",
+        "course_duration": "10 weeks",
+        "intro_text": "Build a custom object oriented PHP MVC framework and then build an application with it",
+        "description": "PHP is a general-purpose scripting language widely used as a server-side language for creating dynamic web pages. In this course we will go step by step to build a complete custom MVC (Model View Controller) framework Called TraversyMVC using object oriented PHP. We will build something similar to Codeigniter but much much lighter. This framework is completely open source and you are free to change the name, add stuff, etc and use it as your own.",
+        "features": {
+            "language": "English",
+            "level": "Intermediate",
+            "support": "Instructor support",
+            "access": "Lifetime access",
+            "certificate": "Certificate of completion"
+        }
     }
-    
-    
-  ]
+]
