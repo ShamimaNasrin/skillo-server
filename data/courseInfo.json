@@ -1,0 +1,34 @@
+[
+    {
+        "_id": "candcpp01",
+        "course_id": "01",
+        "total_student": 488,
+        "title": "",
+        "rating": { "number": 4.5, "votes": 686 },
+        "instructor": {
+          "name": "",
+          "designation": "",
+          "institution": "",
+          "students": 488,
+          "instructor_rating": 4.0,
+          "courses": 10,
+          "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+        },
+        "thumbnail_url": "",
+        "image_url": "",
+        "quiz": "",
+        "course_duration": "",
+        "intro_text": "",
+        "description": "",
+        "features": {
+            "language": "English",
+            "level": "Intermediate",
+            "support": "Instructor support",
+            "access": "lifetime",
+            "certificate": "Certificate of completion"
+        }
+
+    }
+    
+    
+  ]
