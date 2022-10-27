@@ -31,6 +31,14 @@ app.get('/courses-info/:id', (req, res) => {
     console.log(selectedCourse);
 })
 
+app.get('/checkout/:id', (req, res) => {
+    // console.log(req.params);
+    const id = req.params.id;
+    const selectedCourse = coursesInfo.find(c => c._id === id);
+    res.send(selectedCourse);
+    console.log(selectedCourse);
+})
+
 app.listen(port, () => {
     console.log('Courses Server running on port', port);
 })
